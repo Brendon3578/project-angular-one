@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Monitor Gamer Curvo",
+      "description": "Monitor Gamer LG 34 LED Ultra Wide Curvo",
+      "imageUrl": "https://m.media-amazon.com/images/I/61J8N4Lhh0L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 8599.9,
+      "stars": 22,
+      "reviews": 5
+    },
+    {
+      "id": 2,
+      "name": "Cadeira Gamer RGB",
+      "description": "Cadeira Gamer Fox Racer RGB Cinza com Iluminação (Led)",
+      "imageUrl": "https://m.media-amazon.com/images/I/51BFBxYCHfL._AC_UL320_.jpg",
+      "price": 959.9,
+      "stars": 20,
+      "reviews": 8
+    },
+    {
+      "id": 3,
+      "name": "Headset Gamer RGB Preto",
+      "description": "Headset Gamer RGB Preto",
+      "imageUrl": "https://m.media-amazon.com/images/I/41wdMnM567L._AC_UL320_.jpg",
+      "price": 99.9,
+      "stars": 40,
+      "reviews": 8
+    },
+    {
+      "id": 4,
+      "name": "Patinho De Borracha Para Banho",
+      "description": "Patinho de Borracha Amarelo Pequeno para banho",
+      "imageUrl": "https://m.media-amazon.com/images/I/51eY-jEyMWL._AC_UL320_.jpg",
+      "price": 19.9,
+      "stars": 23,
+      "reviews": 5
+    },
+    {
+      "name": "",
+      "description": "",
+      "imageUrl": "",
+      "price": 0,
+      "stars": 0,
+      "reviews": 0,
+      "id": 5
+    },
+    {
+      "name": "",
+      "description": "",
+      "imageUrl": "",
+      "price": 0,
+      "stars": 0,
+      "reviews": 0,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Ethan",
+      "email": "e_w_harris@yahoo.com",
+      "salary": "174.95",
+      "age": "71"
+    },
+    {
+      "name": "Charles",
+      "email": "charles_barnes@aol.com",
+      "salary": "190.95",
+      "age": "39"
+    },
+    {
+      "name": "Charlotte",
+      "email": "charlotte@ymail.com",
+      "salary": "165.99",
+      "age": "49"
+    },
+    {
+      "name": "Sarah",
+      "email": "sarahpatterson@outlook.com",
+      "salary": "150.95",
+      "age": "32"
+    },
+    {
+      "name": "Oliver",
+      "email": "oward@aol.com",
+      "salary": "40.95",
+      "age": "22"
+    },
+    {
+      "name": "Nathan",
+      "email": "nathanscottwashington@ymail.com",
+      "salary": "198.95",
+      "age": "27"
+    },
+    {
+      "name": "Brian",
+      "email": "b_scott@hotmail.com",
+      "salary": "61",
+      "age": "72"
+    },
+    {
+      "name": "Jessica",
+      "email": "jessica.thompson@aol.com",
+      "salary": "101.95",
+      "age": "35"
+    },
+    {
+      "name": "Eleanor",
+      "email": "epatterson@yahoo.com",
+      "salary": "55.95",
+      "age": "26"
+    },
+    {
+      "name": "Samuel",
+      "email": "samueldavidmitchell@live.com",
+      "salary": "182.95",
+      "age": "41"
+    }
+  ]
+}

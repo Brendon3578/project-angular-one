@@ -1,0 +1,70 @@
+<div class="header">
+  <h1>Listagem de Produtos</h1>
+  <button mat-raised-button color="primary" (click)="createNewProduct()">
+    Adicionar novo produto
+    <mat-icon>add</mat-icon>
+  </button>
+</div>
+
+<div class="products-list">
+  <mat-card class="product-card" *ngFor="let product of products">
+    <mat-card-header>
+      <mat-card-title class="product-title">
+        {{ product.name }}
+      </mat-card-title>
+    </mat-card-header>
+    <div class="product-card-image">
+      <img
+        mat-card-image
+        [src]="
+          product.imageUrl?.trim() != ''
+            ? product.imageUrl
+            : '../../../../assets/no-product-image.png'
+        "
+        onerror="this.src = '../../../../assets/image-not-found.png'"
+        [alt]="product.name"
+      />
+      <ng-template #imageNotFound>
+        <p>aopa</p>
+        <mat-icon> image not supported </mat-icon>
+      </ng-template>
+    </div>
+    <mat-card-content>
+      <p class="product-description">
+        {{ product.description }}
+      </p>
+      <p class="product-price">
+        {{ product.price | currency : "BRL" : "R$ " }}
+      </p>
+      <div>
+        <div class="stars-review">
+          <span class="star">
+            {{ product.stars | stars : product.reviews }}
+          </span>
+          <span>
+            {{ product.reviews }}
+          </span>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions class="button-actions-card">
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="selectProduct(product)"
+      >
+        Editar produto
+        <mat-icon> edit </mat-icon>
+      </button>
+      <button
+        mat-mini-fab
+        color="warn"
+        matTooltip="Remover produto"
+        aria-label="Remover produto"
+        (click)="deleteProduct(product)"
+      >
+        <mat-icon> delete </mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

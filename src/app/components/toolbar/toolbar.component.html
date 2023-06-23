@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <span> {{ title }} </span>
+  <span class="example-spacer"></span>
+
+  <ul class="navbar-nav">
+    <li class="nav-item" *ngFor="let linkItem of links">
+      <a
+        mat-button
+        class="nav-link"
+        routerLink="{{ linkItem.link }}"
+        routerLinkActive="active-button"
+      >
+        {{ linkItem.label }}
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>

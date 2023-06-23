@@ -1,0 +1,78 @@
+<main>
+  <form class="example-form mat-elevation-z8">
+    <h1 class="title">{{ title }}</h1>
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome</mat-label>
+      <input
+        matInput
+        placeholder="Nome do produto"
+        [(ngModel)]="name"
+        [ngModelOptions]="{ standalone: true }"
+        name="name"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Descrição</mat-label>
+      <textarea
+        matInput
+        placeholder="Descrição do produto"
+        name="description"
+        [(ngModel)]="description"
+        [ngModelOptions]="{ standalone: true }"
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Endereço URL da imagem</mat-label>
+      <input
+        type="text"
+        matInput
+        placeholder="Endereço URL da imagem"
+        name="imageUrl"
+        [(ngModel)]="imageUrl"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Preço</mat-label>
+      <input
+        type="number"
+        matInput
+        placeholder="Ex: 199.99"
+        name="price"
+        [(ngModel)]="price"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Quantidade de Estrelas totais</mat-label>
+      <input
+        type="number"
+        matInput
+        placeholder="Ex: 22"
+        [(ngModel)]="stars"
+        name="stars"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Quantidade de Avaliações totais</mat-label>
+      <input
+        type="number"
+        matInput
+        placeholder="Ex: 5"
+        [(ngModel)]="reviews"
+        name="total-reviews"
+        [ngModelOptions]="{ standalone: true }"
+      />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="saveProduct()">
+      Salvar
+    </button>
+  </form>
+</main>

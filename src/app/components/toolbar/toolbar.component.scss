@@ -1,0 +1,20 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+ul.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+
+  .nav-item {
+    .nav-link {
+      color: white;
+
+      &.active-button {
+        background-color: rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}

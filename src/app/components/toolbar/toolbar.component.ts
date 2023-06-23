@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./toolbar.component.scss'],
 })
 export class ToolbarComponent {
-  title = 'Projeto Angular One 🚀';
+  title = 'Projeto Angular One';
 
   links = [
     { link: 'home', label: 'Home' },

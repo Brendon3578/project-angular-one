@@ -1,6 +1,12 @@
 # Projeto Angular One
 
-Esse repositório é de estudo sobre o Angular 16.
+Repositório de estudo sobre o Angular 16, foi criado principalmente um CRUD simples de produtos usando o json-server como servidor.
+
+<p align="center">
+    <kbd>
+        <img src="./.github/preview.PNG"style="border-radius: 5px" alt="Website">
+    </kbd>
+</p>
 
 ## Servidor no ambiente de desenvolvimento
 

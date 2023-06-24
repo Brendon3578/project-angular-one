@@ -1,11 +1,24 @@
 # Projeto Angular One
 
-Repositório de estudo sobre o Angular 16, foi criado principalmente um CRUD simples de produtos usando o json-server como servidor.
+Repositório de estudo sobre o Angular 16, foi criado principalmente um CRUD de produtos simples utilizando json-server como servidor.
 
 <p align="center">
     <kbd>
-        <img src="./.github/preview.PNG"style="border-radius: 5px" alt="Website">
+        <img src="./.github/preview.PNG"style="border-radius: 5px" alt="Website" width="620">
     </kbd>
+</p>
+
+<p align="center">
+<span align="center">
+    <kbd>
+        <img src="./.github/preview-2.PNG"style="border-radius: 5px" alt="Website" width="300">
+    </kbd>
+</span>
+<span align="center">
+    <kbd>
+        <img src="./.github/preview-3.PNG"style="border-radius: 5px" alt="Website" width="300">
+    </kbd>
+</span>
 </p>
 
 ## Servidor no ambiente de desenvolvimento

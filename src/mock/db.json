@@ -10,13 +10,13 @@
       "reviews": 5
     },
     {
-      "id": 2,
       "name": "Cadeira Gamer RGB",
       "description": "Cadeira Gamer Fox Racer RGB Cinza com Iluminação (Led)",
       "imageUrl": "https://m.media-amazon.com/images/I/51BFBxYCHfL._AC_UL320_.jpg",
       "price": 959.9,
       "stars": 20,
-      "reviews": 8
+      "reviews": 5,
+      "id": 2
     },
     {
       "id": 3,
@@ -37,22 +37,13 @@
       "reviews": 5
     },
     {
-      "name": "",
-      "description": "",
-      "imageUrl": "",
-      "price": 0,
-      "stars": 0,
-      "reviews": 0,
+      "name": "e",
+      "description": "e",
+      "imageUrl": "e",
+      "price": 1,
+      "stars": 5,
+      "reviews": 1,
       "id": 5
-    },
-    {
-      "name": "",
-      "description": "",
-      "imageUrl": "",
-      "price": 0,
-      "stars": 0,
-      "reviews": 0,
-      "id": 6
     }
   ],
   "users": [

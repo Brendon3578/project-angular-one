@@ -1,15 +1,10 @@
 <main>
-  <form class="example-form mat-elevation-z8">
+  <form class="example-form mat-elevation-z8" [formGroup]="formRegisterProduct">
     <h1 class="title">{{ title }}</h1>
     <mat-form-field class="example-full-width">
       <mat-label>Nome</mat-label>
-      <input
-        matInput
-        placeholder="Nome do produto"
-        [(ngModel)]="name"
-        [ngModelOptions]="{ standalone: true }"
-        name="name"
-      />
+      <input matInput placeholder="Nome do produto" formControlName="name" />
+      <mat-error>Insira um nome para o produto</mat-error>
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
@@ -17,10 +12,9 @@
       <textarea
         matInput
         placeholder="Descrição do produto"
-        name="description"
-        [(ngModel)]="description"
-        [ngModelOptions]="{ standalone: true }"
+        formControlName="description"
       ></textarea>
+      <mat-error>Insira uma descrição para o produto</mat-error>
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
@@ -29,9 +23,7 @@
         type="text"
         matInput
         placeholder="Endereço URL da imagem"
-        name="imageUrl"
-        [(ngModel)]="imageUrl"
-        [ngModelOptions]="{ standalone: true }"
+        formControlName="imageUrl"
       />
     </mat-form-field>
 
@@ -41,10 +33,9 @@
         type="number"
         matInput
         placeholder="Ex: 199.99"
-        name="price"
-        [(ngModel)]="price"
-        [ngModelOptions]="{ standalone: true }"
+        formControlName="price"
       />
+      <mat-error>Insira um número maior que 0 para o preço produto</mat-error>
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
@@ -53,10 +44,11 @@
         type="number"
         matInput
         placeholder="Ex: 22"
-        [(ngModel)]="stars"
-        name="stars"
-        [ngModelOptions]="{ standalone: true }"
+        formControlName="stars"
       />
+      <mat-error
+        >Insira um número para a quantidade de estrelas totais</mat-error
+      >
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
@@ -65,14 +57,20 @@
         type="number"
         matInput
         placeholder="Ex: 5"
-        [(ngModel)]="reviews"
-        name="total-reviews"
-        [ngModelOptions]="{ standalone: true }"
+        formControlName="reviews"
       />
+      <mat-error
+        >Insira um número para a quantidade de avaliações totais</mat-error
+      >
     </mat-form-field>
 
-    <button mat-raised-button color="primary" (click)="saveProduct()">
-      Salvar
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="saveProduct()"
+      [disabled]="formRegisterProduct.valid == false"
+    >
+      {{ buttonAction }}
     </button>
   </form>
 </main>

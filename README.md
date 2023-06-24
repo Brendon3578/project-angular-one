@@ -4,19 +4,19 @@ Repositório de estudo sobre o Angular 16, foi criado principalmente um CRUD de 
 
 <p align="center">
     <kbd>
-        <img src="./.github/preview.PNG"style="border-radius: 5px" alt="Website" width="620">
+        <img src="./.github/preview.PNG"style="border-radius: 5px" alt="Website" width="700">
     </kbd>
 </p>
 
 <p align="center">
 <span align="center">
     <kbd>
-        <img src="./.github/preview-2.PNG"style="border-radius: 5px" alt="Website" width="300">
+        <img src="./.github/preview-2.PNG"style="border-radius: 5px" alt="Website" width="340">
     </kbd>
 </span>
 <span align="center">
     <kbd>
-        <img src="./.github/preview-3.PNG"style="border-radius: 5px" alt="Website" width="300">
+        <img src="./.github/preview-3.PNG"style="border-radius: 5px" alt="Website" width="340">
     </kbd>
 </span>
 </p>
